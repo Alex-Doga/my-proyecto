@@ -1,0 +1,13 @@
+#Comandos usados hasta ahora
+mkdir .ssh
+cd .ssh
+ssh-keygen
+cat id_rsa.pub
+git clone repositorio.de.git
+cd my-proyecto
+ls
+touch README2.me
+nano README2.me
+git add *
+git commit -m "commit inicial"
+git push origin main
