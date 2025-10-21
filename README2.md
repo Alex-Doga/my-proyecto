@@ -8,13 +8,17 @@
 - ls
 - touch README2.md
 - nano README2.md
-- git add *
+- git add .
 - git commit -m "commit inicial"
 - git push origin main
 - mkdir privada
 - touch privado.txt
 - git "/privada" >> .gitignore
 - git "privado.txt" >> .gitignore
-- git add *
+- git add .
 - git commit -m "Cambios en el README.md y se añadireron dos carpetas ignoradas"
+- git push origin main
+- touch 1.txt
+- git add .
+- git commit -m "Añadido 1.txt"
 - git push origin main
