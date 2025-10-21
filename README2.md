@@ -47,3 +47,6 @@
 - vim 1.txt
 - git add.
 - git commit -m "Arreglado el merge en 1.txt" 
+- git tag v0.2
+- git brach -d v0.2
+
