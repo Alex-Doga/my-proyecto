@@ -28,3 +28,22 @@
 - git add .
 - git commit -m "Añadido 2.txt"
 - git push origin v0.2
+- git checkout main
+- git merge v0.2 -m "merge v0.2 sin conflictos"
+- git switch main
+- git checkout main
+- nano 1.txt
+- echo "Hola" >> 1.txt
+- git add .
+- git commit -m "Hola en 1.txt"
+- git switch v0.2
+- git checkout v0.2
+- nano 1.txt
+- echo "Adios" >> 1.txt
+- git add .
+- git commit -m "Adios en 1.txt"
+- git switch main
+- git merge v0.2
+- vim 1.txt
+- git add.
+- git commit -m "Arreglado el merge en 1.txt" 
