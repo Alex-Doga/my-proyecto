@@ -22,3 +22,9 @@
 - git add .
 - git commit -m "Añadido 1.txt"
 - git push origin main
+- git branch v0.2
+- git checkout
+- touch 2.txt
+- git add .
+- git commit -m "Añadido 2.txt"
+- git push origin v0.2
