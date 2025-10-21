@@ -11,3 +11,10 @@
 - git add *
 - git commit -m "commit inicial"
 - git push origin main
+- mkdir privada
+- touch privado.txt
+- git "/privada" >> .gitignore
+- git "privado.txt" >> .gitignore
+- git add *
+- git commit -m "Cambios en el README.md y se añadireron dos carpetas ignoradas"
+- git push origin main
