@@ -1,4 +1,4 @@
-#Comandos usados hasta ahora#
+#Comandos usados hasta ahora
 - mkdir .ssh
 - cd .ssh
 - ssh-keygen
@@ -6,8 +6,8 @@
 - git clone repositorio.de.git
 - cd my-proyecto
 - ls
-- touch README2.me
-- nano README2.me
+- touch README2.md
+- nano README2.md
 - git add *
 - git commit -m "commit inicial"
 - git push origin main
