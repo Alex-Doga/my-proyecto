@@ -1,4 +1,5 @@
-#Comandos usados hasta ahora
+###Comandos usados hasta ahora
+
 - mkdir .ssh
 - cd .ssh
 - ssh-keygen
